@@ -2,6 +2,8 @@
 
 A mobile-first, offline farm-tourism MVP for small hosts in Pakistan. Compare an English guest request with the operator's actual offering, review every interpretation, then issue a fixed-template English/Urdu promise receipt.
 
+**Live app:** [Open Pakka](https://avdol-13a.github.io/Pakka/) · **Team:** 2AM · [Submission fields and video checklist](docs/SUBMISSION.md)
+
 **Exactly three screens:** My Offering → Check Request → Promise Receipt. No accounts, payments, messaging integrations, booking engine, voice feature, dashboard, or runtime cloud AI.
 
 ![Pakka offering screen](docs/screenshots/offering-desktop.png)
