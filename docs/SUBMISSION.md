@@ -12,10 +12,10 @@
 |---|---|---:|---|
 | Product demo | `submission/product-demo.mp4` | 55 seconds | Ready |
 | Technical walkthrough | `submission/technical-walkthrough.mp4` | 56 seconds | Ready |
-| Team introduction | `submission/team-introduction.mp4` | At most 60 seconds | Waiting for team pictures |
-| Team photo | `submission/team-photo.png` | — | Waiting for real team pictures |
+| Team introduction | `submission/team-introduction.mp4` | 48 seconds | Ready |
+| Team photo | `submission/team-photo.png` | — | Ready: original portrait collage |
 
-Submission media containing team portraits is kept locally under ignored `submission/`, rather than automatically added to the public source repository.
+Team videos and portraits are kept locally under ignored `submission/` and excluded from the public GitHub repository, as requested. The local upload bundle is `submission/2AM-Pakka-upload-files.zip`.
 
 Team members and assigned roles supplied/authorized by the user:
 
