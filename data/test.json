@@ -1,0 +1,1567 @@
+[
+  {
+    "id": "test-0-0",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with overnight accommodation.",
+    "labels": []
+  },
+  {
+    "id": "test-0-1",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "test-0-2",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "test-0-3",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "test-0-4",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with coming sometime after noon.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "test-0-5",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-0-6",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-0-7",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and wheelchair access.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-0-8",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with a few of our friends.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-9",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and 10 people coming along.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-10",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport and a total of 16 visitors.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-11",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and 2 grownups plus 3 kids.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-12",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with coming sometime after noon and a few of our friends.",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-13",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and 10 people coming along.",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-14",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am and a total of 16 visitors and a refund policy.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-15",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-0-16",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with walking around the farm with a guide.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-17",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and harvesting vegetables ourselves.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-18",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport and riding horses on the property.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-19",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and letting children feed animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-20",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with coming sometime after noon and walking around the farm with a guide.",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-21",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and harvesting vegetables ourselves and Wi-Fi access.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-22",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am and riding horses on the property.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-23",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-24",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with a few of our friends and walking around the farm with a guide.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-25",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and 10 people coming along and harvesting vegetables ourselves.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-26",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with help arranging transport and a total of 16 visitors and riding horses on the property.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-27",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and 2 grownups plus 3 kids and letting children feed animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-28",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-0-29",
+    "synthetic": true,
+    "family": "test-family-0",
+    "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-0",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and wheelchair access is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-1-1",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a total of 16 visitors is on offer.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-2",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper and 2 grownups plus 3 kids is on offer.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-3",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm and a few of our friends is on offer.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-4",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and 10 people coming along is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-5",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether getting there at 9 am and a total of 16 visitors is on offer.",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-6",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper and spending 4 hours there and 2 grownups plus 3 kids is on offer.",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-7",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and a few of our friends and a refund policy is on offer.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-8",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-1-9",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether riding horses on the property is on offer.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-10",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper and letting children feed animals is on offer.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-11",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm and walking around the farm with a guide is on offer.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-12",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and harvesting vegetables ourselves is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-13",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether getting there at 9 am and riding horses on the property is on offer.",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-14",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper and spending 4 hours there and letting children feed animals and Wi-Fi access is on offer.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-15",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and walking around the farm with a guide is on offer.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-16",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and harvesting vegetables ourselves is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-17",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a total of 16 visitors and riding horses on the property is on offer.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-18",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper and 2 grownups plus 3 kids and letting children feed animals is on offer.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-19",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm and a few of our friends and walking around the farm with a guide is on offer.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-20",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and 10 people coming along and harvesting vegetables ourselves is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-21",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether getting there at 9 am and a total of 16 visitors and riding horses on the property and a birthday cake is on offer.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-22",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals is on offer.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-23",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and a few of our friends and walking around the farm with a guide is on offer.",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-24",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves is on offer.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-1-25",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a refund policy is on offer.",
+    "labels": []
+  },
+  {
+    "id": "test-1-26",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether food for supper is on offer.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "test-1-27",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether a bus ride to your farm is on offer.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "test-1-28",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether tea to drink and a car for the journey back and a prayer room is on offer.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "test-1-29",
+    "synthetic": true,
+    "family": "test-family-1",
+    "text": "My relatives asked whether getting there at 9 am is on offer.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "test-2-0",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and getting there at 9 am and a total of 16 visitors and a refund policy out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-2-1",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-2-2",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave walking around the farm with a guide out of the arrangement, please.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-3",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink and harvesting vegetables ourselves out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-4",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and riding horses on the property out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-5",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and letting children feed animals out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-6",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave coming sometime after noon and walking around the farm with a guide out of the arrangement, please.",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-7",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink and leaving at 6 pm and harvesting vegetables ourselves and Wi-Fi access out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-8",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and getting there at 9 am and riding horses on the property out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-9",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-10",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave a few of our friends and walking around the farm with a guide out of the arrangement, please.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-11",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink and 10 people coming along and harvesting vegetables ourselves out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-12",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and a total of 16 visitors and riding horses on the property out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-13",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and 2 grownups plus 3 kids and letting children feed animals out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-14",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake out of the arrangement, please.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-15",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-16",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and getting there at 9 am and a total of 16 visitors and riding horses on the property out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-17",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-2-18",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave a refund policy out of the arrangement, please.",
+    "labels": []
+  },
+  {
+    "id": "test-2-19",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink out of the arrangement, please.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "test-2-20",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport out of the arrangement, please.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "test-2-21",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and a prayer room out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "test-2-22",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave coming sometime after noon out of the arrangement, please.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "test-2-23",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink and leaving at 6 pm out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-2-24",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and getting there at 9 am out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-2-25",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-2-26",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave a few of our friends out of the arrangement, please.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "test-2-27",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave tea to drink and 10 people coming along out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "test-2-28",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave help arranging transport and a total of 16 visitors and overnight accommodation out of the arrangement, please.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-2-29",
+    "synthetic": true,
+    "family": "test-family-2",
+    "text": "Leave food for supper and being picked up at our hotel and 2 grownups plus 3 kids out of the arrangement, please.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-0",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and spending 4 hours there and letting children feed animals and Wi-Fi access; nothing is settled.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-1",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and walking around the farm with a guide; nothing is settled.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-2",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and harvesting vegetables ourselves; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-3",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a total of 16 visitors and riding horses on the property; nothing is settled.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-4",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and 2 grownups plus 3 kids and letting children feed animals; nothing is settled.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-5",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and a few of our friends and walking around the farm with a guide; nothing is settled.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-6",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and 10 people coming along and harvesting vegetables ourselves; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-7",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about getting there at 9 am and a total of 16 visitors and riding horses on the property and a birthday cake; nothing is settled.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-8",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals; nothing is settled.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-9",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and a few of our friends and walking around the farm with a guide; nothing is settled.",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-10",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-11",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a refund policy; nothing is settled.",
+    "labels": []
+  },
+  {
+    "id": "test-3-12",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper; nothing is settled.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "test-3-13",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm; nothing is settled.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "test-3-14",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and a prayer room; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "test-3-15",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about getting there at 9 am; nothing is settled.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "test-3-16",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and spending 4 hours there; nothing is settled.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-3-17",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon; nothing is settled.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-3-18",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-3-19",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a total of 16 visitors; nothing is settled.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-20",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and 2 grownups plus 3 kids; nothing is settled.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-21",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and a few of our friends and overnight accommodation; nothing is settled.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-22",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and 10 people coming along; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-23",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about getting there at 9 am and a total of 16 visitors; nothing is settled.",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-24",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and spending 4 hours there and 2 grownups plus 3 kids; nothing is settled.",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-25",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and a few of our friends; nothing is settled.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-26",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along; nothing is settled.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-3-27",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about riding horses on the property; nothing is settled.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-28",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about food for supper and letting children feed animals and wheelchair access; nothing is settled.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-3-29",
+    "synthetic": true,
+    "family": "test-family-3",
+    "text": "We have mixed feelings about a bus ride to your farm and walking around the farm with a guide; nothing is settled.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-0",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake?",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-1",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves?",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-2",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and a total of 16 visitors and riding horses on the property?",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-3",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-4",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about a refund policy?",
+    "labels": []
+  },
+  {
+    "id": "test-4-5",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink?",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "test-4-6",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport?",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "test-4-7",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and a prayer room?",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "test-4-8",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about coming sometime after noon?",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "test-4-9",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm?",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-4-10",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am?",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-4-11",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "test-4-12",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about a few of our friends?",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-13",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and 10 people coming along?",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-14",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport and a total of 16 visitors and overnight accommodation?",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-15",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and 2 grownups plus 3 kids?",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-16",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about coming sometime after noon and a few of our friends?",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-17",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and 10 people coming along?",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-18",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and a total of 16 visitors?",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-19",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "test-4-20",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about walking around the farm with a guide?",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-21",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and harvesting vegetables ourselves and wheelchair access?",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-22",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport and riding horses on the property?",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-23",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and letting children feed animals?",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-24",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about coming sometime after noon and walking around the farm with a guide?",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-25",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and harvesting vegetables ourselves?",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-26",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and riding horses on the property?",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-27",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-28",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about a few of our friends and walking around the farm with a guide and a refund policy?",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "test-4-29",
+    "synthetic": true,
+    "family": "test-family-4",
+    "text": "What can you tell a first-time visitor about tea to drink and 10 people coming along and harvesting vegetables ourselves?",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  }
+]

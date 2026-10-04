@@ -1,0 +1,1567 @@
+[
+  {
+    "id": "validation-0-0",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering overnight accommodation.",
+    "labels": []
+  },
+  {
+    "id": "validation-0-1",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "validation-0-2",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-0-3",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-0-4",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering arrival after lunch.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-0-5",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and a late visit.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-0-6",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors and a visit at 11 am.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-0-7",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us and staying for 3 hours and wheelchair access.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-0-8",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering several people.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-9",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and 8 visitors together.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-10",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors and a group of 15 guests.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-11",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us and 4 adults with children.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-12",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering arrival after lunch and several people.",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-13",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and a late visit and 8 visitors together.",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-14",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors and a visit at 11 am and a group of 15 guests and a refund policy.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-15",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us and staying for 3 hours and 4 adults with children.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-0-16",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering a farm walking tour.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-17",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-18",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors and a horse ride.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-19",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-20",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering arrival after lunch and a farm walking tour.",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-21",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and a late visit and picking fresh vegetables and Wi-Fi access.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-22",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors and a visit at 11 am and a horse ride.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-23",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us and staying for 3 hours and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-24",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering several people and a farm walking tour.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-25",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and 8 visitors together and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-26",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering transport for visitors and a group of 15 guests and a horse ride.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-27",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering evening dinner and a vehicle to collect us and 4 adults with children and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-28",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering arrival after lunch and several people and a farm walking tour and a birthday cake.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-0-29",
+    "synthetic": true,
+    "family": "validation-family-0",
+    "text": "For our outing, we are considering cups of tea and a late visit and 8 visitors together and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-0",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and a late visit and wheelchair access?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-1-1",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a group of 15 guests?",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-2",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner and 4 adults with children?",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-3",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel and several people?",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-4",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and 8 visitors together?",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-5",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a visit at 11 am and a group of 15 guests?",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-6",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner and staying for 3 hours and 4 adults with children?",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-7",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel and arrival after lunch and several people and a refund policy?",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-8",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and a late visit and 8 visitors together?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-1-9",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a horse ride?",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-10",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner and time with farm animals?",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-11",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel and a farm walking tour?",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-12",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and picking fresh vegetables?",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-13",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a visit at 11 am and a horse ride?",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-14",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner and staying for 3 hours and time with farm animals and Wi-Fi access?",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-15",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel and arrival after lunch and a farm walking tour?",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-16",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and a late visit and picking fresh vegetables?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-17",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a group of 15 guests and a horse ride?",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-18",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner and 4 adults with children and time with farm animals?",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-19",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel and several people and a farm walking tour?",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-20",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and 8 visitors together and picking fresh vegetables?",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-21",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a visit at 11 am and a group of 15 guests and a horse ride and a birthday cake?",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-22",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner and staying for 3 hours and 4 adults with children and time with farm animals?",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-23",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel and arrival after lunch and several people and a farm walking tour?",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-24",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and a late visit and 8 visitors together and picking fresh vegetables?",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-1-25",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a refund policy?",
+    "labels": []
+  },
+  {
+    "id": "validation-1-26",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for evening dinner?",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "validation-1-27",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for pickup from the hotel?",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-1-28",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for cups of tea and a return shuttle and a prayer room?",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-1-29",
+    "synthetic": true,
+    "family": "validation-family-1",
+    "text": "Will there be an option for a visit at 11 am?",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-2-0",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a visit at 11 am and a group of 15 guests and a refund policy.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-2-1",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and staying for 3 hours and 4 adults with children.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-2-2",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without a farm walking tour.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-3",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-4",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a horse ride.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-5",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-6",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without arrival after lunch and a farm walking tour.",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-7",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea and a late visit and picking fresh vegetables and Wi-Fi access.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-8",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a visit at 11 am and a horse ride.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-9",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and staying for 3 hours and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-10",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without several people and a farm walking tour.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-11",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea and 8 visitors together and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-12",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a group of 15 guests and a horse ride.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-13",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and 4 adults with children and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-14",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without arrival after lunch and several people and a farm walking tour and a birthday cake.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-15",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea and a late visit and 8 visitors together and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-16",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a visit at 11 am and a group of 15 guests and a horse ride.",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-17",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and staying for 3 hours and 4 adults with children and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-2-18",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without a refund policy.",
+    "labels": []
+  },
+  {
+    "id": "validation-2-19",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "validation-2-20",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-2-21",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and a prayer room.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-2-22",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without arrival after lunch.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-2-23",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea and a late visit.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-2-24",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a visit at 11 am.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-2-25",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and staying for 3 hours.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-2-26",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without several people.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "validation-2-27",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without cups of tea and 8 visitors together.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-2-28",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without transport for visitors and a group of 15 guests and overnight accommodation.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-2-29",
+    "synthetic": true,
+    "family": "validation-family-2",
+    "text": "We can manage without evening dinner and a vehicle to collect us and 4 adults with children.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-0",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and staying for 3 hours and time with farm animals and Wi-Fi access would suit us.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-1",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and arrival after lunch and a farm walking tour would suit us.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-2",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and a late visit and picking fresh vegetables would suit us.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-3",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a group of 15 guests and a horse ride would suit us.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-4",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and 4 adults with children and time with farm animals would suit us.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-5",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and several people and a farm walking tour would suit us.",
+    "labels": [
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-6",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and 8 visitors together and picking fresh vegetables would suit us.",
+    "labels": [
+      "meals",
+      "transport",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-7",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a visit at 11 am and a group of 15 guests and a horse ride and a birthday cake would suit us.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-8",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and staying for 3 hours and 4 adults with children and time with farm animals would suit us.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-9",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and arrival after lunch and several people and a farm walking tour would suit us.",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-10",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and a late visit and 8 visitors together and picking fresh vegetables would suit us.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-11",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a refund policy would suit us.",
+    "labels": []
+  },
+  {
+    "id": "validation-3-12",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner would suit us.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "validation-3-13",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel would suit us.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-3-14",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and a prayer room would suit us.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-3-15",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a visit at 11 am would suit us.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-3-16",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and staying for 3 hours would suit us.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-3-17",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and arrival after lunch would suit us.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-3-18",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and a late visit would suit us.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-3-19",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a group of 15 guests would suit us.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-20",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and 4 adults with children would suit us.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-21",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and several people and overnight accommodation would suit us.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-22",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and 8 visitors together would suit us.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-23",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a visit at 11 am and a group of 15 guests would suit us.",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-24",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and staying for 3 hours and 4 adults with children would suit us.",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-25",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and arrival after lunch and several people would suit us.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-26",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps cups of tea and a return shuttle and a late visit and 8 visitors together would suit us.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-3-27",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps a horse ride would suit us.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-28",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps evening dinner and time with farm animals and wheelchair access would suit us.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-3-29",
+    "synthetic": true,
+    "family": "validation-family-3",
+    "text": "Perhaps pickup from the hotel and a farm walking tour would suit us.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-0",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of arrival after lunch and several people and a farm walking tour and a birthday cake.",
+    "labels": [
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-1",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and a late visit and 8 visitors together and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-2",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors and a visit at 11 am and a group of 15 guests and a horse ride.",
+    "labels": [
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-3",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and staying for 3 hours and 4 adults with children and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-4",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of a refund policy.",
+    "labels": []
+  },
+  {
+    "id": "validation-4-5",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea.",
+    "labels": [
+      "meals"
+    ]
+  },
+  {
+    "id": "validation-4-6",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors.",
+    "labels": [
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-4-7",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and a prayer room.",
+    "labels": [
+      "meals",
+      "transport"
+    ]
+  },
+  {
+    "id": "validation-4-8",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of arrival after lunch.",
+    "labels": [
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-4-9",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and a late visit.",
+    "labels": [
+      "meals",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-4-10",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors and a visit at 11 am.",
+    "labels": [
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-4-11",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and staying for 3 hours.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing"
+    ]
+  },
+  {
+    "id": "validation-4-12",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of several people.",
+    "labels": [
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-13",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and 8 visitors together.",
+    "labels": [
+      "meals",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-14",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors and a group of 15 guests and overnight accommodation.",
+    "labels": [
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-15",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and 4 adults with children.",
+    "labels": [
+      "meals",
+      "transport",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-16",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of arrival after lunch and several people.",
+    "labels": [
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-17",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and a late visit and 8 visitors together.",
+    "labels": [
+      "meals",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-18",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors and a visit at 11 am and a group of 15 guests.",
+    "labels": [
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-19",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and staying for 3 hours and 4 adults with children.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "group"
+    ]
+  },
+  {
+    "id": "validation-4-20",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of a farm walking tour.",
+    "labels": [
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-21",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and picking fresh vegetables and wheelchair access.",
+    "labels": [
+      "meals",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-22",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors and a horse ride.",
+    "labels": [
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-23",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-24",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of arrival after lunch and a farm walking tour.",
+    "labels": [
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-25",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and a late visit and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-26",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of transport for visitors and a visit at 11 am and a horse ride.",
+    "labels": [
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-27",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of evening dinner and a vehicle to collect us and staying for 3 hours and time with farm animals.",
+    "labels": [
+      "meals",
+      "transport",
+      "timing",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-28",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of several people and a farm walking tour and a refund policy.",
+    "labels": [
+      "group",
+      "activities"
+    ]
+  },
+  {
+    "id": "validation-4-29",
+    "synthetic": true,
+    "family": "validation-family-4",
+    "text": "I am checking the possibility of cups of tea and 8 visitors together and picking fresh vegetables.",
+    "labels": [
+      "meals",
+      "group",
+      "activities"
+    ]
+  }
+]

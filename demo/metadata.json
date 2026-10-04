@@ -1,0 +1,10 @@
+{
+  "durationSeconds": 55,
+  "bytes": 2184870,
+  "narrationProvider": "ElevenLabs",
+  "voice": "Bella - Professional, Bright, Warm",
+  "model": "eleven_multilingual_v2",
+  "narrationSeconds": 52.19845804988662,
+  "footage": "Actual local Pakka production build, automated UI interactions",
+  "captionOverlay": true
+}

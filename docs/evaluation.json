@@ -1,0 +1,2802 @@
+{
+  "seed": 20261004,
+  "counts": {
+    "train": 600,
+    "validation": 150,
+    "test": 150
+  },
+  "modelBytes": 21283,
+  "modelSha256": "c4ba9a1d6d497f6479786063001f1cf896007a79ae14e1f6c736734e18f23559",
+  "testSha256": "d92b4155bc4abca55c0cc87febd98d082edda84a12b05ea2c397588554c4051f",
+  "familyOverlap": 0,
+  "duplicateTexts": 0,
+  "classifier": {
+    "perLabel": [
+      {
+        "label": "meals",
+        "tp": 37,
+        "fp": 13,
+        "fn": 38,
+        "precision": 0.74,
+        "recall": 0.49333333333333335,
+        "f1": 0.592
+      },
+      {
+        "label": "transport",
+        "tp": 33,
+        "fp": 2,
+        "fn": 41,
+        "precision": 0.9428571428571428,
+        "recall": 0.44594594594594594,
+        "f1": 0.6055045871559633
+      },
+      {
+        "label": "timing",
+        "tp": 30,
+        "fp": 0,
+        "fn": 43,
+        "precision": 1,
+        "recall": 0.410958904109589,
+        "f1": 0.5825242718446602
+      },
+      {
+        "label": "group",
+        "tp": 14,
+        "fp": 0,
+        "fn": 60,
+        "precision": 1,
+        "recall": 0.1891891891891892,
+        "f1": 0.3181818181818182
+      },
+      {
+        "label": "activities",
+        "tp": 11,
+        "fp": 0,
+        "fn": 63,
+        "precision": 1,
+        "recall": 0.14864864864864866,
+        "f1": 0.25882352941176473
+      }
+    ],
+    "microF1": 0.49019607843137253,
+    "macroF1": 0.47140684131884125,
+    "exactMatch": 0.07333333333333333,
+    "failures": [
+      {
+        "text": "The trip would work for us if it came with overnight accommodation.",
+        "expected": [],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport.",
+        "expected": [
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel.",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon.",
+        "expected": [
+          "timing"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm.",
+        "expected": [
+          "meals",
+          "timing"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am.",
+        "expected": [
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and wheelchair access.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with a few of our friends.",
+        "expected": [
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and 10 people coming along.",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and a total of 16 visitors.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "transport"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and 2 grownups plus 3 kids.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon and a few of our friends.",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and 10 people coming along.",
+        "expected": [
+          "meals",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am and a total of 16 visitors and a refund policy.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with walking around the farm with a guide.",
+        "expected": [
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and harvesting vegetables ourselves.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and riding horses on the property.",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and letting children feed animals.",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon and walking around the farm with a guide.",
+        "expected": [
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "transport"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and harvesting vegetables ourselves and Wi-Fi access.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am and riding horses on the property.",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with a few of our friends and walking around the farm with a guide.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and 10 people coming along and harvesting vegetables ourselves.",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and a total of 16 visitors and riding horses on the property.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and 2 grownups plus 3 kids and letting children feed animals.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves.",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and wheelchair access is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a total of 16 visitors is on offer.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "My relatives asked whether food for supper and 2 grownups plus 3 kids is on offer.",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and a few of our friends is on offer.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and 10 people coming along is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether getting there at 9 am and a total of 16 visitors is on offer.",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and spending 4 hours there and 2 grownups plus 3 kids is on offer.",
+        "expected": [
+          "meals",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and a few of our friends and a refund policy is on offer.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and letting children feed animals is on offer.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and spending 4 hours there and letting children feed animals and Wi-Fi access is on offer.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a total of 16 visitors and riding horses on the property is on offer.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "activities"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and 2 grownups plus 3 kids and letting children feed animals is on offer.",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and a few of our friends and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and 10 people coming along and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether getting there at 9 am and a total of 16 visitors and riding horses on the property and a birthday cake is on offer.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals is on offer.",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and a few of our friends and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper is on offer.",
+        "expected": [
+          "meals"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "My relatives asked whether getting there at 9 am is on offer.",
+        "expected": [
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport and getting there at 9 am and a total of 16 visitors and a refund policy out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "Leave walking around the farm with a guide out of the arrangement, please.",
+        "expected": [
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and harvesting vegetables ourselves out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport and riding horses on the property out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "Leave coming sometime after noon and walking around the farm with a guide out of the arrangement, please.",
+        "expected": [
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "Leave tea to drink and leaving at 6 pm and harvesting vegetables ourselves and Wi-Fi access out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "Leave help arranging transport and getting there at 9 am and riding horses on the property out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave a few of our friends and walking around the farm with a guide out of the arrangement, please.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and 10 people coming along and harvesting vegetables ourselves out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport and a total of 16 visitors and riding horses on the property out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and 2 grownups plus 3 kids and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "Leave coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake out of the arrangement, please.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "Leave help arranging transport and getting there at 9 am and a total of 16 visitors and riding horses on the property out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "Leave tea to drink out of the arrangement, please.",
+        "expected": [
+          "meals"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport out of the arrangement, please.",
+        "expected": [
+          "transport"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and a prayer room out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "Leave coming sometime after noon out of the arrangement, please.",
+        "expected": [
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and leaving at 6 pm out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport and getting there at 9 am out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave a few of our friends out of the arrangement, please.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and 10 people coming along out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport and a total of 16 visitors and overnight accommodation out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and 2 grownups plus 3 kids out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about food for supper and spending 4 hours there and letting children feed animals and Wi-Fi access; nothing is settled.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and harvesting vegetables ourselves; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a total of 16 visitors and riding horses on the property; nothing is settled.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about food for supper and 2 grownups plus 3 kids and letting children feed animals; nothing is settled.",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and a few of our friends and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and 10 people coming along and harvesting vegetables ourselves; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about getting there at 9 am and a total of 16 visitors and riding horses on the property and a birthday cake; nothing is settled.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about food for supper and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals; nothing is settled.",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and a few of our friends and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about food for supper; nothing is settled.",
+        "expected": [
+          "meals"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about getting there at 9 am; nothing is settled.",
+        "expected": [
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about food for supper and spending 4 hours there; nothing is settled.",
+        "expected": [
+          "meals",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a total of 16 visitors; nothing is settled.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about food for supper and 2 grownups plus 3 kids; nothing is settled.",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and a few of our friends and overnight accommodation; nothing is settled.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and 10 people coming along; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about getting there at 9 am and a total of 16 visitors; nothing is settled.",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about food for supper and spending 4 hours there and 2 grownups plus 3 kids; nothing is settled.",
+        "expected": [
+          "meals",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and a few of our friends; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about riding horses on the property; nothing is settled.",
+        "expected": [
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about food for supper and letting children feed animals and wheelchair access; nothing is settled.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake?",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves?",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and a total of 16 visitors and riding horses on the property?",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "group"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink?",
+        "expected": [
+          "meals"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport?",
+        "expected": [
+          "transport"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and a prayer room?",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon?",
+        "expected": [
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm?",
+        "expected": [
+          "meals",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am?",
+        "expected": [
+          "transport",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about a few of our friends?",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and 10 people coming along?",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and a total of 16 visitors and overnight accommodation?",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and 2 grownups plus 3 kids?",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "group"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon and a few of our friends?",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and 10 people coming along?",
+        "expected": [
+          "meals",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and a total of 16 visitors?",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about walking around the farm with a guide?",
+        "expected": [
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and harvesting vegetables ourselves and wheelchair access?",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and riding horses on the property?",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and letting children feed animals?",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon and walking around the farm with a guide?",
+        "expected": [
+          "timing",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and harvesting vegetables ourselves?",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and riding horses on the property?",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about a few of our friends and walking around the farm with a guide and a refund policy?",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and 10 people coming along and harvesting vegetables ourselves?",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      }
+    ]
+  },
+  "keywordBaseline": {
+    "perLabel": [
+      {
+        "label": "meals",
+        "tp": 75,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      {
+        "label": "transport",
+        "tp": 37,
+        "fp": 0,
+        "fn": 37,
+        "precision": 1,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      {
+        "label": "timing",
+        "tp": 59,
+        "fp": 14,
+        "fn": 14,
+        "precision": 0.8082191780821918,
+        "recall": 0.8082191780821918,
+        "f1": 0.8082191780821918
+      },
+      {
+        "label": "group",
+        "tp": 27,
+        "fp": 10,
+        "fn": 47,
+        "precision": 0.7297297297297297,
+        "recall": 0.36486486486486486,
+        "f1": 0.4864864864864865
+      },
+      {
+        "label": "activities",
+        "tp": 35,
+        "fp": 0,
+        "fn": 39,
+        "precision": 1,
+        "recall": 0.47297297297297297,
+        "f1": 0.6422018348623854
+      }
+    ],
+    "microF1": 0.7432216905901117,
+    "macroF1": 0.7207148332195461,
+    "exactMatch": 0.25333333333333335,
+    "failures": [
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel.",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon.",
+        "expected": [
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and wheelchair access.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with a few of our friends.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and a total of 16 visitors.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and 2 grownups plus 3 kids.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon and a few of our friends.",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and getting there at 9 am and a total of 16 visitors and a refund policy.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with walking around the farm with a guide.",
+        "expected": [
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and harvesting vegetables ourselves.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and letting children feed animals.",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon and walking around the farm with a guide.",
+        "expected": [
+          "timing",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and harvesting vegetables ourselves and Wi-Fi access.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with a few of our friends and walking around the farm with a guide.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and 10 people coming along and harvesting vegetables ourselves.",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with help arranging transport and a total of 16 visitors and riding horses on the property.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "activities"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with food for supper and being picked up at our hotel and 2 grownups plus 3 kids and letting children feed animals.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "The trip would work for us if it came with coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "The trip would work for us if it came with tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves.",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and wheelchair access is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a total of 16 visitors is on offer.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "My relatives asked whether food for supper and 2 grownups plus 3 kids is on offer.",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and a few of our friends is on offer.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and 10 people coming along is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether getting there at 9 am and a total of 16 visitors is on offer.",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and spending 4 hours there and 2 grownups plus 3 kids is on offer.",
+        "expected": [
+          "meals",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and a few of our friends and a refund policy is on offer.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and letting children feed animals is on offer.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "My relatives asked whether food for supper and spending 4 hours there and letting children feed animals and Wi-Fi access is on offer.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a total of 16 visitors and riding horses on the property is on offer.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "activities"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and a few of our friends and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and 10 people coming along and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether getting there at 9 am and a total of 16 visitors and riding horses on the property and a birthday cake is on offer.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "My relatives asked whether a bus ride to your farm and coming sometime after noon and a few of our friends and walking around the farm with a guide is on offer.",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves is on offer.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "My relatives asked whether tea to drink and a car for the journey back and a prayer room is on offer.",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "Leave help arranging transport and getting there at 9 am and a total of 16 visitors and a refund policy out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "Leave walking around the farm with a guide out of the arrangement, please.",
+        "expected": [
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and harvesting vegetables ourselves out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave coming sometime after noon and walking around the farm with a guide out of the arrangement, please.",
+        "expected": [
+          "timing",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and leaving at 6 pm and harvesting vegetables ourselves and Wi-Fi access out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave a few of our friends and walking around the farm with a guide out of the arrangement, please.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and 10 people coming along and harvesting vegetables ourselves out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "Leave help arranging transport and a total of 16 visitors and riding horses on the property out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and 2 grownups plus 3 kids and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake out of the arrangement, please.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "Leave help arranging transport and getting there at 9 am and a total of 16 visitors and riding horses on the property out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and a prayer room out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "Leave coming sometime after noon out of the arrangement, please.",
+        "expected": [
+          "timing"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and spending 4 hours there out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "Leave a few of our friends out of the arrangement, please.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "Leave help arranging transport and a total of 16 visitors and overnight accommodation out of the arrangement, please.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "Leave food for supper and being picked up at our hotel and 2 grownups plus 3 kids out of the arrangement, please.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about food for supper and spending 4 hours there and letting children feed animals and Wi-Fi access; nothing is settled.",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and harvesting vegetables ourselves; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a total of 16 visitors and riding horses on the property; nothing is settled.",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "activities"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and a few of our friends and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and 10 people coming along and harvesting vegetables ourselves; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about getting there at 9 am and a total of 16 visitors and riding horses on the property and a birthday cake; nothing is settled.",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and a few of our friends and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and a prayer room; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a total of 16 visitors; nothing is settled.",
+        "expected": [
+          "group"
+        ],
+        "predicted": []
+      },
+      {
+        "text": "We have mixed feelings about food for supper and 2 grownups plus 3 kids; nothing is settled.",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": [
+          "meals"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and a few of our friends and overnight accommodation; nothing is settled.",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and 10 people coming along; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about getting there at 9 am and a total of 16 visitors; nothing is settled.",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about food for supper and spending 4 hours there and 2 grownups plus 3 kids; nothing is settled.",
+        "expected": [
+          "meals",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and coming sometime after noon and a few of our friends; nothing is settled.",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about tea to drink and a car for the journey back and leaving at 6 pm and 10 people coming along; nothing is settled.",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about food for supper and letting children feed animals and wheelchair access; nothing is settled.",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "We have mixed feelings about a bus ride to your farm and walking around the farm with a guide; nothing is settled.",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "transport"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon and a few of our friends and walking around the farm with a guide and a birthday cake?",
+        "expected": [
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and 10 people coming along and harvesting vegetables ourselves?",
+        "expected": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and a total of 16 visitors and riding horses on the property?",
+        "expected": [
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids and letting children feed animals?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about a refund policy?",
+        "expected": [],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink?",
+        "expected": [
+          "meals"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport?",
+        "expected": [
+          "transport"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and a prayer room?",
+        "expected": [
+          "meals",
+          "transport"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about a few of our friends?",
+        "expected": [
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and 10 people coming along?",
+        "expected": [
+          "meals",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and a total of 16 visitors and overnight accommodation?",
+        "expected": [
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and 2 grownups plus 3 kids?",
+        "expected": [
+          "meals",
+          "transport",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon and a few of our friends?",
+        "expected": [
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and getting there at 9 am and a total of 16 visitors?",
+        "expected": [
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "transport",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and 2 grownups plus 3 kids?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "group"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about walking around the farm with a guide?",
+        "expected": [
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and harvesting vegetables ourselves and wheelchair access?",
+        "expected": [
+          "meals",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about help arranging transport and riding horses on the property?",
+        "expected": [
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "transport",
+          "timing",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and letting children feed animals?",
+        "expected": [
+          "meals",
+          "transport",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about coming sometime after noon and walking around the farm with a guide?",
+        "expected": [
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and leaving at 6 pm and harvesting vegetables ourselves?",
+        "expected": [
+          "meals",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about food for supper and being picked up at our hotel and spending 4 hours there and letting children feed animals?",
+        "expected": [
+          "meals",
+          "transport",
+          "timing",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group",
+          "activities"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about a few of our friends and walking around the farm with a guide and a refund policy?",
+        "expected": [
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "timing"
+        ]
+      },
+      {
+        "text": "What can you tell a first-time visitor about tea to drink and 10 people coming along and harvesting vegetables ourselves?",
+        "expected": [
+          "meals",
+          "group",
+          "activities"
+        ],
+        "predicted": [
+          "meals",
+          "timing",
+          "group"
+        ]
+      }
+    ]
+  }
+}
